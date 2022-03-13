@@ -8,8 +8,9 @@ In this project we are using Streamlit for the frontend and FastAPI for the back
 For the machine learning Model we are using Haystack's pretrained model "Seq2SeqGenerator".
 
 How it works:
+
 First, we run the model and we are downloading the GOT training data and store its embeddings.
-Second, we start the uvicorn API and load the store embeddings.
+Second, we start the uvicorn API and load the stored embeddings.
 Finally, we start the streamlit app and call the api endpoint to retrieve the asnwer
 
 Code setup:
