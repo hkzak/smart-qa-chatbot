@@ -42,6 +42,7 @@ cd to the root Dir and install the following:
   ![image](https://user-images.githubusercontent.com/22933014/158054626-108a6881-e8fe-41af-956b-624a04ff251b.png)
 
 6- if you want to use your own data or documents:
+
     a- go to haystack_model.py and comment the following line "s3_url = "https://s3.eu-central-1.amazonaws.com/deepset.ai-farm-qa/datasets/documents/wiki_gameofthrones_txt.zip"
     fetch_archive_from_http(url=s3_url, output_dir=doc_dir)"
     b- change line 28 ( doc_dir = "data/article_txt_got" ) to the path to your training data documents
