@@ -21,7 +21,7 @@ if choice == "Ask Bot":
 
     if submit:
       with st.spinner("Processing..."):
-            url = "http://127.0.0.1:8001/askQuestion/"
+            url = "http://127.0.0.1:8000/askQuestion/"
             payload = {'query': user_input}
             response = requests.post(url, json=payload)
             response_json = response.json()
