@@ -45,6 +45,6 @@ cd to the root Dir and install the following:
 
     a- go to haystack_model.py and comment the following line "s3_url = "https://s3.eu-central-1.amazonaws.com/deepset.ai-farm-qa/datasets/documents/wiki_gameofthrones_txt.zip"
     fetch_archive_from_http(url=s3_url, output_dir=doc_dir)"
-    b- change line 28 ( doc_dir = "data/article_txt_got" ) to the path to your training data documents
+    b- change line 28 ( doc_dir = "data/article_txt_got" ) to the path of your training data/documents
     c- run "python haystack_model.py"
     d- restart the uvicorn server
